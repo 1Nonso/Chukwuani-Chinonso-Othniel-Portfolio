@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./assets/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  background-color: #fbf8cc;
+}
+
+nav {
+  .navName {
+    font-family: bebas neue;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #061280;
+  }
+
+  .navContainer{
+    p:hover{
+        background-color: #061280;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        padding: 0.3rem;
+        border-radius: 0.8rem;
+        color: white;
+    }
+  }
+}
