@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <>
       <BrowserRouter>
-        <nav className="flex justify-between p-4 fixed w-full top-0">
+        <nav className="flex justify-between items-center p-4 sticky w-full top-0 h-13">
           <p className="navName">Othniel</p>
           <div className="navContainer ">
             <ul className="flex justify-between space-x-7 items-center h-full">
@@ -38,10 +38,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-{
-  /* <p>Home</p>
-<p>About</p>
-<p>Work</p>
-<p>Contact</p> */
-}

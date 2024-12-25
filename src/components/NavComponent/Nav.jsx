@@ -3,13 +3,13 @@ import NavBarSmall from "./NavSmallDisplay";
 import { useMedia } from "react-use";
 
 const NavBar = () => {
-  const isSmallScreen = useMedia("(max-width:1024px )");
+  const isSmallScreen = useMedia("(max-width:768px )");
 
   return (
     <>
       {isSmallScreen ? null : <NavBarLarge />}
 
-      <NavBarSmall />
+      {isSmallScreen ? <NavBarSmall /> : null}
     </>
   );
 };

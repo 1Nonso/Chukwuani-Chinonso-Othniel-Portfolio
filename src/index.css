@@ -17,6 +17,8 @@ body {
 }
 
 nav {
+  background-color: #fbf8cc;
+
   .navName {
     font-family: bebas neue;
     font-size: 1.5em;
