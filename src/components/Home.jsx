@@ -21,7 +21,7 @@ const Home = () => {
             +1 Year Experience. Based in Enugu City, Nigeria.
           </p>
         </section>
-        <section className=" w-[80%] lg:w-96">
+        <section className=" w-[80%] md:w-[50%] lg:w-96">
           <img
             src={profilePhoto}
             alt=""
