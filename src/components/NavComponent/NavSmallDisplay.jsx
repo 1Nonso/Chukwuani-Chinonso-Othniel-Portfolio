@@ -14,7 +14,7 @@ const NavBarSmallDisplay = () => {
       <nav className="sticky top-0 z-50 w-full shadow-md">
         <section className="flex justify-between px-4 py-2">
           <p className="navName">Othniel</p>
-          <div>
+          <div className="flex items-center">
             <button type="button" onClick={dropDown}>
               Menu
             </button>
@@ -31,7 +31,7 @@ const DropDownMenu = () => {
     <>
       <BrowserRouter>
         <section className="px-4 py-2">
-          <ul className="flex justify-between space-x-7 items-center h-full">
+          <ul className="flex justify-between space-x-7 items-center h-full navContainer">
             <li>
               <Link to="#Home" smooth>
                 Home

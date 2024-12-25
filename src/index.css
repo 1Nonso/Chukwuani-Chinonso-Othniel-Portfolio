@@ -28,14 +28,7 @@ nav {
 
   .navContainer {
     li:hover {
-      background-color: #061280;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 5rem;
-      padding: 0.3rem;
-      border-radius: 0.8rem;
-      color: white;
+      color: #061280;
     }
   }
 }
