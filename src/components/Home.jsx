@@ -17,8 +17,7 @@ const Home = () => {
           <h1 className="text-3xl lg:text-8xl">
             Front-end <br /> Web Developer
           </h1>
-          <p className=" text-1xl lg:text-2xl mt-5">
-            {" "}
+          <p className=" text-1xl lg:text-2xl mt-1 lg:mt-5">
             +1 Year Experience. Based in Enugu City, Nigeria.
           </p>
         </section>
@@ -26,12 +25,12 @@ const Home = () => {
           <img
             src={profilePhoto}
             alt=""
-            className="rounded-full relative right-7"
+            className="rounded-full relative left-0 lg:right-6"
           />
           <img
             src={plusSigns}
             alt=""
-            className="relative bottom-16 lg:right-9"
+            className="relative bottom-6 right-9 lg:right-9"
           />
         </section>
       </main>
