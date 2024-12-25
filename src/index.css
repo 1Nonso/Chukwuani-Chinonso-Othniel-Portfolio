@@ -7,6 +7,15 @@
   src: url("./assets/DancingScript-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "poppinsMedium";
+  src: url("./assets/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppinsEBoLd";
+  src: url("./assets/Poppins-ExtraBold.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,4 +40,13 @@ nav {
       color: #061280;
     }
   }
+}
+
+#Home {
+  font-family: poppinsMedium;
+  color: #474306;
+  h1{
+    font-family: poppinsEBold;
+  }
+
 }
