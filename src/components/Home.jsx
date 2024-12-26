@@ -7,9 +7,9 @@ const Home = () => {
       <main
         id="Home"
         style={{ scrollMarginTop: "80px" }}
-        className="flex flex-col justify-between items-center lg:flex-col px-7 pt-8"
+        className="flex flex-col justify-between items-center px-7 pt-3"
       >
-        <p className=" text-2xl md:text-5xl mb-5 welcome">Welcome</p>
+        <p className=" text-5xl md:text-8xl welcome">Welcome</p>
         <section className="flex flex-col-reverse justify-between items-center lg:flex-row px-7 pt-8 w-full">
           <div>
             <p className="text-1xl lg:text-2xl">
@@ -23,7 +23,7 @@ const Home = () => {
               +1 Year Experience. Based in Enugu City, Nigeria.
             </p>
           </div>
-          <div className="mb-4 sm:mb-0 w-[80%] md:w-[50%] lg:w-96">
+          <div className="mb-7 sm:mb-0 w-[80%] md:w-[50%] lg:w-96">
             <img
               src={profilePhoto}
               alt="Image of Myself"
