@@ -53,3 +53,7 @@ nav {
     font-family: bebas neue;
   }
 }
+
+.techStack{
+  display: grid;
+}
