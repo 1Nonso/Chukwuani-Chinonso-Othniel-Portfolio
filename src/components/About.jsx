@@ -3,6 +3,8 @@ import cssImage from "./../assets/css3-logo.svg";
 import jsImage from "./../assets/javascript-logo.svg";
 import reactLogo from "./../assets/react-svgrepo-com.svg";
 import tailwindLogo from "./../assets/tailwind-logo.svg";
+import githubLogo from "./../assets/github-logo.svg";
+import vercelLogo from "./../assets/logo-vercel-svgrepo-com.svg";
 
 const About = () => {
   const projectEperience = [
@@ -24,14 +26,16 @@ const About = () => {
       img: htmlImage,
       name: "HTML (HyerText Markup Language)",
       classification: "User Interface",
-      description: "This is web-based technology used in adding elements on to the browser",
+      description:
+        "This is web-based technology used in adding elements on to the browser",
     },
     {
       id: 2,
       img: cssImage,
       name: "CSS (Cascading Style Sheet)",
       classification: "User Interface",
-      description: "",
+      description:
+        "A style sheet used for styling elements in the browser that goes hand in hand with html",
     },
     {
       id: 3,
@@ -53,6 +57,21 @@ const About = () => {
       name: "Tailwindcss",
       classification: "User Interface",
       description: "",
+    },
+  ];
+
+  const otherTools = [
+    {
+      id: 1,
+      img: githubLogo,
+      name: "Github",
+      classification: "Version Control",
+    },
+    {
+      id: 2,
+      img: vercelLogo,
+      name: "Vercel",
+      classification: "Hosting Platform",
     },
   ];
 
@@ -87,8 +106,20 @@ const About = () => {
         </section>
         <section className="mt-4 px-1 w-full">
           <p className="text-xl">Powered By</p>
+          <p className="text-center my-3 font-[atma]">
+            Discover the powerful tools and technologies i use to create
+            exceptional, high-performing websites & applications.
+          </p>
           <div className="my-6">
             <p className="my-1">My Tech Stack:</p>
+            <p className="mb-5 font-[atma] text-center">
+              I am proficient in the following technologies & tools: HTML, CSS,
+              JavaScript, the React library, and Tailwind library, Github, and Vercel. With the help
+              of these technologies, i am able to write high-quality,
+              maintainable code, whiles always striving to improve my skills in
+              areas such as performance optimization, accessibility, and
+              cross-browser compatibility.
+            </p>
             <div className="techStack grid-cols-1 md:grid-cols-2 gap-8 grid-rows-2 w-full">
               {techStack.map((tech) => {
                 const { id, img, name, classification } = tech;
@@ -97,12 +128,12 @@ const About = () => {
                     key={id}
                     className="flex flex-row items-center w-[22rem]"
                   >
-                    <img src={img} alt="" className="w-[10%] mx-1" />
+                    <img src={img} alt="" className="w-[10%] mr-5" />
                     <div className="w-[90%]">
                       <p>
                         <strong>{name}</strong>
                       </p>
-                      <p>{classification}</p>
+                      <p className="class">{classification}</p>
                     </div>
                   </div>
                 );
@@ -110,8 +141,24 @@ const About = () => {
             </div>
           </div>
           <div>
-            <p>Other Tools:</p>
-            <div></div>
+            <p className="mb-3">Other Tools:</p>
+            <div className="techStack grid-cols-1 md:grid-cols-2 gap-8 grid-rows-2 w-full">
+              {otherTools.map((tool) => {
+                const { id, img, name, classification } = tool;
+                return (
+                  <div
+                    key={id}
+                    className="flex flex-row items-center w-[22rem]"
+                  >
+                    <img src={img} alt="" className="w-[10%] mr-5" />
+                    <div className="w-[90%]">
+                      <p>{name}</p>
+                      <p className="class">{classification}</p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </section>
       </main>

@@ -11,9 +11,15 @@
   font-family: "poppinsMedium";
   src: url("./assets/Poppins-Medium.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "poppinsEBoLd";
   src: url("./assets/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: atma;
+  src: url("./assets/Atma-Medium.ttf");
 }
 
 * {
@@ -56,4 +62,8 @@ nav {
 
 .techStack{
   display: grid;
+}
+
+.class{
+  font-family: atma;
 }
