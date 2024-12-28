@@ -84,13 +84,16 @@ const About = () => {
       >
         <section className="border-2 border-[#F5EE84] p-5 rounded-lg">
           <p className="mb-5 text-xl">
-            Welcome! I'm Chukwuani Chinonso Othniel, a highly motivated and
-            result-oriented Front-end Web developer with an ability to translate
-            creative concepts into functional and engaging web experiences. I'm
-            a results-oriented with a focus on delivering high-quality Websites
-            and Web-Apps that meet client needs and exceed expectations. I'm
-            always eager to collaborate and contribute to successful web
-            development initiatives.
+            Welcome! I'm Chukwuani Chinonso Othniel, a highly motivated
+            Front-end Web Developer passionate about transforming creative
+            concepts into functional and engaging web experiences. With a keen
+            eye for detail and a focus on quality, I specialize in building
+            responsive websites and web applications that not only meet client
+            requirements but exceed their expectations. My expertise in modern
+            web technologies allows me to create seamless user experiences while
+            maintaining clean, efficient code. I'm always eager to collaborate
+            on innovative projects and contribute my skills to impactful web
+            development initiatives..
           </p>
           <section className="flex justify-between w-64">
             {projectEperience.map((project) => {
@@ -114,11 +117,11 @@ const About = () => {
             <p className="my-1">My Tech Stack:</p>
             <p className="mb-5 font-[atma] text-center">
               I am proficient in the following technologies & tools: HTML, CSS,
-              JavaScript, the React library, and Tailwind library, Github, and Vercel. With the help
-              of these technologies, i am able to write high-quality,
-              maintainable code, whiles always striving to improve my skills in
-              areas such as performance optimization, accessibility, and
-              cross-browser compatibility.
+              JavaScript, the React library, and Tailwind library, Github, and
+              Vercel. With the help of these technologies, i am able to write
+              high-quality, maintainable code, whiles always striving to improve
+              my skills in areas such as performance optimization,
+              accessibility, and cross-browser compatibility.
             </p>
             <div className="techStack grid-cols-1 md:grid-cols-2 gap-8 grid-rows-2 w-full">
               {techStack.map((tech) => {
