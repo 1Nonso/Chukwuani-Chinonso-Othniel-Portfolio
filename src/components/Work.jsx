@@ -5,6 +5,7 @@ const Work = () => {
         id="Work"
         style={{ scrollMarginTop: '80px' }}
       >
+        <p>Happy New Year </p>
       </main>
     </>
   );
