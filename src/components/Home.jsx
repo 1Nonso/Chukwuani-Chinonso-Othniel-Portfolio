@@ -1,5 +1,5 @@
-import plusSigns from "./../assets/Image-Design/Design-1.svg";
-import profilePhoto from "./../assets/Image-Design/Profile-Photo.png";
+import plusSigns from "./../assets/Design/Design-1.svg";
+import profilePhoto from "./../assets/Design/Profile-Photo.png";
 
 const Home = () => {
   return (

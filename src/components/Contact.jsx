@@ -1,7 +1,6 @@
-import call_me from "../assets/call_me.svg";
-import email_me from "../assets/email_me.svg";
-import headerFont from "../assets/GiveYouGlory-Regular.ttf";
-import bodyFont from "../assets/Tangerine-Bold.ttf";
+import call_me from "../assets/Images/call_me.svg";
+import email_me from "../assets/Images/email_me.svg";
+
 
 const Contact = () => {
   return (
@@ -11,7 +10,7 @@ const Contact = () => {
         style={{ scrollMarginTop: "80px" }}
         className="p-4 text-[#474306] font-[atma]"
       >
-        <h1 className="text-3xl font-[bodyFont] mb-2">Let's Connect</h1>
+        <h1 className="text-3xl font-[poppinsMedium] mb-2">Let's Connect</h1>
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <p className="text-xl lg:w-[60%]">
             I'm always excited to connect with fellow developers, potential

@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: "Bebas Neue";
-  src: url("./assets/DancingScript-VariableFont_wght.ttf") format("truetype");
+  src: url("./assets/Fonts/DancingScript-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "poppinsMedium";
-  src: url("./assets/Poppins-Medium.ttf") format("truetype");
+  src: url("./assets/Fonts/Poppins-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "poppinsEBoLd";
-  src: url("./assets/Poppins-ExtraBold.ttf") format("truetype");
+  src: url("./assets/Fonts/Poppins-ExtraBold.ttf") format("truetype");
 }
 
 @font-face{
   font-family: atma;
-  src: url("./assets/Atma-Medium.ttf");
+  src: url("./assets/Fonts/Atma-Medium.ttf");
 }
 
 * {

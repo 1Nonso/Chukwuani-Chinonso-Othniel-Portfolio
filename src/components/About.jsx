@@ -1,10 +1,10 @@
-import htmlImage from "./../assets/html5-logo.svg";
-import cssImage from "./../assets/css3-logo.svg";
-import jsImage from "./../assets/javascript-logo.svg";
-import reactLogo from "./../assets/react-svgrepo-com.svg";
-import tailwindLogo from "./../assets/tailwind-logo.svg";
-import githubLogo from "./../assets/github-logo.svg";
-import vercelLogo from "./../assets/logo-vercel-svgrepo-com.svg";
+import htmlImage from "./../assets/Images/html5-logo.svg";
+import cssImage from "./../assets/Images/css3-logo.svg";
+import jsImage from "./../assets/Images/javascript-logo.svg";
+import reactLogo from "./../assets/Images/react-svgrepo-com.svg";
+import tailwindLogo from "./../assets/Images/tailwind-logo.svg";
+import githubLogo from "./../assets/Images/github-logo.svg";
+import vercelLogo from "./../assets/Images/Logo-vercel-svgrepo-com.svg";
 
 const About = () => {
   const projectEperience = [
@@ -84,16 +84,16 @@ const About = () => {
       >
         <section className="border-2 border-[#F5EE84] p-5 rounded-lg">
           <p className="mb-5 text-xl">
-            Welcome! I'm Chukwuani Chinonso Othniel, a highly motivated
-            Front-end Web Developer passionate about transforming creative
-            concepts into functional and engaging web experiences. With a keen
-            eye for detail and a focus on quality, I specialize in building
-            responsive websites and web applications that not only meet client
-            requirements but exceed their expectations. My expertise in modern
-            web technologies allows me to create seamless user experiences while
+            Welcome! I'm Chukwuani Chinonso Othniel, a Front-end Web Developer
+            who delves in transforming creative concepts into functional and
+            engaging web experiences. With a keen eye for detail and a focus on
+            quality, I specialize in building responsive websites and web
+            applications that not only meet client requirements but exceed their
+            expectations. My expertise in modern web technologies over the years
+            have allowed me to create seamless user experiences while
             maintaining clean, efficient code. I'm always eager to collaborate
             on innovative projects and contribute my skills to impactful web
-            development initiatives..
+            development initiatives.
           </p>
           <section className="flex justify-between w-64">
             {projectEperience.map((project) => {
