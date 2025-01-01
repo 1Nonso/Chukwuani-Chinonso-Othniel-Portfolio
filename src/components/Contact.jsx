@@ -12,14 +12,14 @@ const Contact = () => {
         className="p-4 text-[#474306]"
       >
         <h1 className="text-4xl font-[bodyFont]">Let's Connect</h1>
-        <div className="flex flex-row items-center justify-between">
-          <p className="text-xl w-[60%]">
+        <div className="flex flex-col lg:flex-row items-center justify-between">
+          <p className="text-xl lg:w-[60%]">
             I'm always excited to connect with fellow developers, potential
             collaborators, and anyone interested in web development. Whether you
             have a project in mind or just want to say hello, feel free to reach
             out!
           </p>
-          <ul className="flex flex-col justify-evenly ml-6 mt-5 w-[40%]">
+          <ul className="flex flex-col justify-evenly lg:ml-6 mt-5 lg:w-[40%]">
             <li className="flex items-center justify-between w-[19.5rem] my-3">
               <img
                 className="bg-gray-400 p-1 rounded-md"
