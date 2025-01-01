@@ -16,11 +16,9 @@ const Home = () => {
               Hello, I'm
               <strong> Othniel,</strong>
             </p>
-            <h1 className="text-3xl lg:text-7xl">
-              Front-end Web Developer
-            </h1>
+            <h1 className="text-3xl lg:text-7xl">Front-end Web Developer</h1>
             <p className=" text-1xl lg:text-2xl mt-1 lg:mt-5">
-              +1 Year Experience. Based in Enugu City, Nigeria.
+              +1 Year Experience. Based in Nigeria.
             </p>
           </div>
           <div className="mb-7 sm:mb-0 w-[60%] md:w-[50%] lg:w-96">
@@ -36,7 +34,9 @@ const Home = () => {
             />
           </div>
         </section>
-        <p className="mt-10 mb-7 text-2xl welcome">Web Experiences, Thoughtfully Coded</p>
+        <p className="mt-10 mb-7 text-2xl welcome">
+          Web Experiences, Thoughtfully Coded
+        </p>
       </main>
     </>
   );
