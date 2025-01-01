@@ -6,7 +6,7 @@ import curlyFont from "./../assets/Fonts/DancingScript-VariableFont_wght.ttf";
 const Footer = () => {
   return (
     <>
-      <main className=" h-12 flex flex-row justify-between items-center footer px-4">
+      <main className=" fixed bottom-0 w-full bg-[#fbf8cc] h-12 flex flex-row justify-between items-center footer px-4">
         <p className="text-[#061280] text-2xl" style={{ fontFamily: curlyFont }}>
           Web Experiences, Thoughtfully Coded
         </p>
