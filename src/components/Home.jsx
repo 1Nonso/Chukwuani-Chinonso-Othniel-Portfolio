@@ -18,7 +18,7 @@ const Home = () => {
             </p>
             <h1 className="text-3xl lg:text-7xl">Front-end Web Developer</h1>
             <p className=" text-1xl lg:text-2xl mt-1 lg:mt-5">
-              +1 Year Experience. Based in Nigeria.
+              +1 Year Experience.
             </p>
           </div>
           <div className="mb-7 sm:mb-0 w-[60%] md:w-[50%] lg:w-96">
