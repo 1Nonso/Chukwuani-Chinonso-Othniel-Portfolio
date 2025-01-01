@@ -8,10 +8,10 @@ const Contact = () => {
     <>
       <main
         id="Contact"
-        style={{ scrollMarginTop: "80px", fontFamily: "headerFont" }}
-        className="p-4 text-[#474306]"
+        style={{ scrollMarginTop: "80px" }}
+        className="p-4 text-[#474306] font-[atma]"
       >
-        <h1 className="text-4xl font-[bodyFont]">Let's Connect</h1>
+        <h1 className="text-3xl font-[bodyFont] mb-2">Let's Connect</h1>
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <p className="text-xl lg:w-[60%]">
             I'm always excited to connect with fellow developers, potential

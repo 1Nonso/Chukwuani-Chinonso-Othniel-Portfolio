@@ -114,7 +114,9 @@ const About = () => {
             exceptional, high-performing websites & applications.
           </p>
           <div className="my-6">
-            <p className="my-1">My Tech Stack:</p>
+            <p className="my-1 text-lg">
+              <u>My Tech Stack:</u>
+            </p>
             <p className="mb-5 font-[atma] text-center">
               I am proficient in the following technologies & tools: HTML, CSS,
               JavaScript, the React library, and Tailwind library, Github, and
@@ -144,7 +146,9 @@ const About = () => {
             </div>
           </div>
           <div>
-            <p className="mb-3">Other Tools:</p>
+            <p className="mb-3">
+              <u>Other Tools:</u>
+            </p>
             <div className="techStack grid-cols-1 md:grid-cols-2 gap-8 grid-rows-2 w-full">
               {otherTools.map((tool) => {
                 const { id, img, name, classification } = tool;
@@ -155,7 +159,9 @@ const About = () => {
                   >
                     <img src={img} alt="" className="w-[10%] mr-5" />
                     <div className="w-[90%]">
-                      <p>{name}</p>
+                      <p>
+                        <strong>{name}</strong>
+                      </p>
                       <p className="class">{classification}</p>
                     </div>
                   </div>
