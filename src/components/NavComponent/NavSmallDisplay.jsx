@@ -2,7 +2,7 @@ import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter } from "react-router-dom";
 import { Transition } from "react-transition-group";
-import arrowDown from "./../../assets/arrow_drop_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
+import arrowDown from "./../../assets/Images/arrow_drop_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
 
 const NavBarSmallDisplay = ({
   animationDuration = "300ms",
