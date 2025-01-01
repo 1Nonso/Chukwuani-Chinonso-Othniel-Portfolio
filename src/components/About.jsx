@@ -4,7 +4,7 @@ import jsImage from "./../assets/Images/javascript-logo.svg";
 import reactLogo from "./../assets/Images/react-svgrepo-com.svg";
 import tailwindLogo from "./../assets/Images/tailwind-logo.svg";
 import githubLogo from "./../assets/Images/github-logo.svg";
-import vercelLogo from "./../assets/Images/Logo-vercel-svgrepo-com.svg";
+import vercelLogo from "./../assets/Images/logo-vercel-svgrepo-com.svg";
 
 const About = () => {
   const projectEperience = [
@@ -48,7 +48,7 @@ const About = () => {
       id: 4,
       img: reactLogo,
       name: "React",
-      classification: "User Experience",
+      classification: "User Experience / Interactivity",
       description: "",
     },
     {
