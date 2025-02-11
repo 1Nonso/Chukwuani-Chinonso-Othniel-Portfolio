@@ -42,6 +42,7 @@ const Work = () => {
             <div key={id} >
               <h2>{name}</h2>
               <a href={url}> Visit Preview Page</a>
+              <PreviewPhoto />
             </div>
           );
         })}
