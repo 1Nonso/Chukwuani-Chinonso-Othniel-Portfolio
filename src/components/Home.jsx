@@ -13,7 +13,7 @@ const Home = () => {
         <section className="flex flex-col-reverse justify-between items-center lg:flex-row px-7 pt-8 w-full">
           <div>
             <p className="text-1xl lg:text-2xl">
-              Hello, I'm
+              Hello, I am
               <strong> Othniel,</strong>
             </p>
             <h1 className="text-3xl lg:text-7xl">Front-end Web Developer</h1>

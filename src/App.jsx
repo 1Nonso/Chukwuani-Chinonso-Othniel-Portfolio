@@ -16,7 +16,7 @@ function App() {
 
         <About />
 
-        {/* <Work /> */}
+        <Work />
 
         <Contact />
       </section>
