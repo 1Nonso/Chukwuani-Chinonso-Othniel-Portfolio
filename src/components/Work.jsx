@@ -39,7 +39,8 @@ const Work = () => {
           const { name, url } = project;
           <div>
             <h2>{name}</h2>
-            <PreviewPhoto url={url} />;
+            <p>{url}</p>
+           /* <PreviewPhoto url={url} /> */
           </div>;
         })}
       </main>
