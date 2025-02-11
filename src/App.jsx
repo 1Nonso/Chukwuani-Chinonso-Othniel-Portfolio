@@ -16,6 +16,8 @@ function App() {
 
         <About />
 
+        <Work />
+
         <Contact />
       </section>
 
