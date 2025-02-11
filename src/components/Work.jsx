@@ -25,6 +25,7 @@ const Work = () => {
     {
       name: "Calculator App",
       url: "https://calculator-app-beta-ebon.vercel.app/",
+      id: 1
     },
   ];
   return (
@@ -36,12 +37,13 @@ const Work = () => {
       >
         <h1>My Projects</h1>
         {projectData.map((project) => {
-          const { name, url } = project;
-          <div>
-            <h2>{name}</h2>
-            <p>{url}</p>
-           /* <PreviewPhoto url={url} /> */
-          </div>;
+          const { name, url, id } = project;
+          return (
+            <div key={id} >
+              <h2>{name}</h2>
+              <p>{url}</p>
+            </div>
+          );
         })}
       </main>
     </>
