@@ -7,13 +7,13 @@ const PreviewPhoto = ({ url }) => {
   }
 
   return (
-    <div className="projectPreview">
+    <div className="projectPreview flex justify-center">
       <iframe
         src={url}
-        className="w-full h-full aspect-square border-s-pink-950 max-w-[60rem] max-h-[60rem] rounded-3xl z-[-1] relative"
+        className=" aspect-square w-[25rem] h-[30rem] rounded-3xl z-[-1] relative"
         style={{
           overflow: 'hidden',
-          transform: "scale(0.25)",
+          transform: "scale(1.0)",
           transformOrigin: "0 0"
         }}
         title="Project Preview"
@@ -31,6 +31,16 @@ const Work = () => {
       url: "https://calculator-app-beta-ebon.vercel.app/",
       id: 1
     },
+    {
+      name: "Calculator App",
+      url: "https://calculator-app-beta-ebon.vercel.app/",
+      id: 2
+    },
+    {
+      name: "Calculator App",
+      url: "https://calculator-app-beta-ebon.vercel.app/",
+      id: 3
+    },
   ];
   return (
     <>
@@ -39,17 +49,21 @@ const Work = () => {
         className="px-5"
         style={{ scrollMarginTop: "80px" }}
       >
-        <h1>My Projects</h1>
-        {projectData.map((project) => {
-          const { name, url, id } = project;
-          return (
-            <div key={id} >
-              <h2>{name}</h2>
-              <a href={url}> Visit Preview Page</a>
-              <PreviewPhoto url={url} />
-            </div>
-          );
-        })}
+        <h1 className="text-4xl mb-14">My Projects</h1>
+        <section className="grid grid-cols-3 gap-2">
+          {projectData.map((project) => {
+            const { name, url, id } = project;
+            return (
+              <div key={id} className="">
+                <PreviewPhoto url={url} />
+                <div className="ml-5">
+                  <h2 className="text-2xl">{name}</h2>
+                  <a href={url}> Click Here to Vist Web-Page</a>
+                </div>
+              </div>
+            );
+          })}
+        </section>
       </main>
     </>
   );
