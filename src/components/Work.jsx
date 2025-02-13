@@ -46,7 +46,7 @@ const Work = () => {
     <>
       <main
         id="Work"
-        className="px-5"
+        className="px-5 text-[#474306]"
         style={{ scrollMarginTop: "80px" }}
       >
         <h1 className="text-4xl mb-14">My Projects</h1>
@@ -56,9 +56,9 @@ const Work = () => {
             return (
               <div key={id} className="">
                 <PreviewPhoto url={url} />
-                <div className="ml-5">
+                <div className="flex flex-col ml-6 my-4">
                   <h2 className="text-2xl">{name}</h2>
-                  <a href={url}> Click Here to Vist Web-Page</a>
+                  <a href={url} className="font-[atma]"> Visit Preview Page</a>
                 </div>
               </div>
             );

@@ -84,14 +84,14 @@ const About = () => {
       >
         <section className="border-2 border-[#F5EE84] p-5 rounded-lg">
           <p className="mb-5 text-xl">
-            Welcome! I'm Chukwuani Chinonso Othniel, a Front-end Web Developer
+            Welcome! I`m Chukwuani Chinonso Othniel, a Front-end Web Developer
             who delves in transforming creative concepts into functional and
             engaging web experiences. With a keen eye for detail and a focus on
             quality, I specialize in building responsive websites and web
             applications that not only meet client requirements but exceed their
             expectations. My expertise in modern web technologies over the years
             have allowed me to create seamless user experiences while
-            maintaining clean, efficient code. I'm always eager to collaborate
+            maintaining clean, efficient code. I`m always eager to collaborate
             on innovative projects and contribute my skills to impactful web
             development initiatives.
           </p>
