@@ -10,7 +10,7 @@ const PreviewPhoto = ({ url }) => {
     <div className="projectPreview flex justify-center">
       <iframe
         src={url}
-        className=" aspect-square w-[25rem] h-[30rem] rounded-3xl z-[-1] relative"
+        className=" aspect-square w-[80%] md:w-[] lg:w-[25rem] h-[30rem] rounded-3xl z-[-1] relative"
         style={{
           overflow: 'hidden',
           transform: "scale(1.0)",
