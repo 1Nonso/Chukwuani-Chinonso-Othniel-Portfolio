@@ -31,30 +31,20 @@ const Work = () => {
       url: "https://calculator-app-beta-ebon.vercel.app/",
       id: 1
     },
-    {
-      name: "Calculator App",
-      url: "https://calculator-app-beta-ebon.vercel.app/",
-      id: 2
-    },
-    {
-      name: "Calculator App",
-      url: "https://calculator-app-beta-ebon.vercel.app/",
-      id: 3
-    },
   ];
   return (
     <>
       <main
         id="Work"
-        className="px-5 text-[#474306]"
+        className="px-5 pb-14 text-[#474306]"
         style={{ scrollMarginTop: "80px" }}
       >
-        <h1 className="text-4xl mb-14">My Projects</h1>
+        <h1 className="text-4xl mb-10">My Projects</h1>
         <section className="grid grid-cols-3 gap-2">
           {projectData.map((project) => {
             const { name, url, id } = project;
             return (
-              <div key={id} className="">
+              <div key={id} className="border-2 border-[#F5EE84] rounded-3xl pt-4">
                 <PreviewPhoto url={url} />
                 <div className="flex flex-col ml-6 my-4">
                   <h2 className="text-2xl">{name}</h2>
