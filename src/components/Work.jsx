@@ -39,7 +39,12 @@ const Work = () => {
         className="px-5 py-14 text-[#474306]"
         style={{ scrollMarginTop: "80px" }}
       >
-        <h1 className="text-4xl mb-10">My Projects</h1>
+        <h1 className="text-4xl mb-8">My Projects</h1>
+        <p className="mb-5">
+          Here are some projects showcasing my skills and experience in web
+          development, They demonstrate my ability to solve complex problems,
+          create user-friendly interfaces, delivering results amongst others.
+        </p>
         <section className="grid grid-col-1 md:grid-cols-2 gap-6">
           {projectData.map((project) => {
             const { name, url, id } = project;
