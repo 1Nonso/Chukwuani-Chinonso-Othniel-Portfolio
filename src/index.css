@@ -17,7 +17,7 @@
   src: url("./assets/Fonts/Poppins-ExtraBold.ttf") format("truetype");
 }
 
-@font-face{
+@font-face {
   font-family: atma;
   src: url("./assets/Fonts/Atma-Medium.ttf");
 }
@@ -52,22 +52,32 @@ nav {
 #Home {
   font-family: poppinsMedium;
   color: #474306;
+
   h1 {
     font-family: poppinsEBold;
   }
+
   .welcome {
     font-family: bebas neue;
   }
 }
 
-.techStack{
+.techStack {
   display: grid;
 }
 
-.class{
+.class {
   font-family: atma;
 }
 
-.footer{
+.footer {
   font-family: bebas neue;
+}
+
+.url:hover {
+  text-decoration: underline;
+}
+
+.projectBorder {
+  box-shadow: 3px 5px 10px 0px;
 }

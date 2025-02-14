@@ -149,7 +149,7 @@ const About = () => {
             <p className="mb-3">
               <u>Other Tools:</u>
             </p>
-            <div className="techStack grid-cols-1 md:grid-cols-2 gap-8 grid-rows-2 w-full">
+            <div className="techStack grid-cols-1 md:grid-cols-2 gap-8 grid-rows-2 md:grid-rows-1 w-full">
               {otherTools.map((tool) => {
                 const { id, img, name, classification } = tool;
                 return (
