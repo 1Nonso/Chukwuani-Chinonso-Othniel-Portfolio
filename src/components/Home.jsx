@@ -21,11 +21,11 @@ const Home = () => {
               +1 Year Experience.
             </p>
           </div>
-          <div className="mb-7 sm:mb-0 w-[70%] md:w-[50%] lg:w-96">
+          <div className="mb-7 sm:mb-0 w-[90%] md:w-[50%] lg:w-96">
             <img
               src={profilePhoto}
               alt="Image of Myself"
-              className="profilePhoto h-[15rem] w-[15rem] mb-3 -z-50 relative left-0 lg:right-6"
+              className="profilePhoto h-[19rem] w-[15rem] mb-3 -z-50 relative left-0 lg:right-6"
             />
             <img
               src={plusSigns}
