@@ -62,6 +62,10 @@ nav {
   }
 }
 
+.profilePhoto{
+  border-radius: 1rem 100rem 100rem 100rem;
+}
+
 .techStack {
   display: grid;
 }
