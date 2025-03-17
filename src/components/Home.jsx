@@ -25,12 +25,12 @@ const Home = () => {
             <img
               src={profilePhoto}
               alt="Image of Myself"
-              className="profilePhoto h-[19rem] w-[15rem] mb-3 -z-50 relative left-0 lg:right-6"
+              className="profilePhoto h-[19rem] w-[15rem] mb-3 -z-50 relative left-6 sm:left-14 lg:right-6"
             />
             <img
               src={plusSigns}
               alt="plus Signs"
-              className="-z-50 relative bottom-6 right-9 lg:right-9"
+              className="-z-50 relative bottom-6 sm:right-0  right-4 lg:right-9"
             />
           </div>
         </section>

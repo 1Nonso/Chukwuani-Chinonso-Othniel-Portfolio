@@ -5,6 +5,8 @@ import reactLogo from "./../assets/Images/react-svgrepo-com.svg";
 import tailwindLogo from "./../assets/Images/tailwind-logo.svg";
 import githubLogo from "./../assets/Images/github-logo.svg";
 import vercelLogo from "./../assets/Images/logo-vercel-svgrepo-com.svg";
+import { motion } from "framer-motion";
+// import { frame } from "framer-motion";
 
 const About = () => {
   const projectEperience = [
@@ -82,7 +84,13 @@ const About = () => {
         style={{ scrollMarginTop: "80px" }}
         className=" px-5 py-5 text-[#474306]"
       >
-        <section className="border-2 border-[#F5EE84] p-5 rounded-lg">
+        <motion.section
+          initial={{ opacity: 0 }}
+          transition={{ duration: 2 }}
+          animate={{ x: [-500, 0] }}
+          whileInView={{ opacity: 1 }}
+          className="border-2 border-[#F5EE84] p-5 rounded-lg"
+        >
           <p className="mb-5 text-xl">
             Welcome! I`m Chukwuani Chinonso Othniel, a Front-end Web Developer
             who delves in transforming creative concepts into functional and
@@ -106,7 +114,7 @@ const About = () => {
               );
             })}
           </section>
-        </section>
+        </motion.section>
         <section className="mt-4 px-1 w-full">
           <p className="text-xl">Powered By</p>
           <p className="text-center my-3 font-[atma]">
