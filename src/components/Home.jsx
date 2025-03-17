@@ -1,5 +1,5 @@
 import plusSigns from "./../assets/Design/Design-1.svg";
-import profilePhoto from "./../assets/Design/Profile-Photo.png";
+import profilePhoto from "./../assets/Images/Also_a_picture_of_me.jpg";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         style={{ scrollMarginTop: "80px" }}
         className="flex flex-col justify-between items-center px-7 pt-3"
       >
-        <p className=" text-5xl md:text-6xl welcome">Welcome</p>
+        <p className="text-5xl md:text-6xl welcome w-20s">Welcome</p>
         <section className="flex flex-col-reverse justify-between items-center lg:flex-row px-7 pt-8 w-full">
           <div>
             <p className="text-1xl lg:text-2xl">
@@ -21,7 +21,7 @@ const Home = () => {
               +1 Year Experience.
             </p>
           </div>
-          <div className="mb-7 sm:mb-0 w-[60%] md:w-[50%] lg:w-96">
+          <div className="mb-7 sm:mb-0 w-[50%] md:w-[50%] lg:w-96">
             <img
               src={profilePhoto}
               alt="Image of Myself"
