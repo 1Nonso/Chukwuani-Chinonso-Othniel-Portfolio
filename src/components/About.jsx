@@ -79,18 +79,10 @@ const About = () => {
 
   return (
     <>
-      <main
-        id="About"
-        style={{ scrollMarginTop: "80px" }}
-        className=" px-5 py-5 text-[#474306]"
-      >
-        <motion.section
-          initial={{ opacity: 0 }}
-          transition={{ duration: 2 }}
-          animate={{ x: [-500, 0] }}
-          whileInView={{ opacity: 1 }}
-          className="border-2 border-[#F5EE84] p-5 rounded-lg"
-        >
+      <main id="About" style={{ scrollMarginTop: "80px" }} className=" px-5 py-5 text-[#474306]">
+        <motion.section initial={{ opacity: 0 }} transition={{ duration: 2 }} animate={{ x: [-500, 0] }} whileInView={{
+          opacity: 1
+        }} className="border-2 border-[#F5EE84] p-5 rounded-lg">
           <p className="mb-5 text-xl">
             Welcome! I`m Chukwuani Chinonso Othniel, a Front-end Web Developer
             who delves in transforming creative concepts into functional and
@@ -122,9 +114,6 @@ const About = () => {
             exceptional, high-performing websites & applications.
           </p>
           <div className="my-6">
-            <p className="my-1 text-lg">
-              <u>My Tech Stack:</u>
-            </p>
             <p className="mb-5 font-[atma] text-center">
               I am proficient in the following technologies & tools: HTML, CSS,
               JavaScript, the React library, and Tailwind library, Github, and
@@ -137,10 +126,7 @@ const About = () => {
               {techStack.map((tech) => {
                 const { id, img, name, classification } = tech;
                 return (
-                  <div
-                    key={id}
-                    className="flex flex-row items-center w-[22rem]"
-                  >
+                  <div key={id} className="flex flex-row items-center w-[22rem]">
                     <img src={img} alt="" className="w-[10%] mr-5" />
                     <div className="w-[90%]">
                       <p>
@@ -161,10 +147,7 @@ const About = () => {
               {otherTools.map((tool) => {
                 const { id, img, name, classification } = tool;
                 return (
-                  <div
-                    key={id}
-                    className="flex flex-row items-center w-[22rem]"
-                  >
+                  <div key={id} className="flex flex-row items-center w-[22rem]">
                     <img src={img} alt="" className="w-[10%] mr-5" />
                     <div className="w-[90%]">
                       <p>

@@ -18,7 +18,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.upwork.com/nx/find-work/best-matches">
+              <a href="https://www.upwork.com/freelancers/~01659f15d513b62d05?mp_source=share">
                 <img src={upworkLogo} alt="" className="h-20" />
               </a>
             </li>
