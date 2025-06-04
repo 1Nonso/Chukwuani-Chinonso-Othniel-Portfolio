@@ -6,6 +6,7 @@ import tailwindLogo from "./../assets/Images/tailwind-logo.svg";
 import githubLogo from "./../assets/Images/github-logo.svg";
 import vercelLogo from "./../assets/Images/logo-vercel-svgrepo-com.svg";
 import { motion } from "framer-motion";
+import nextjsLogo from "./../assets/Images/nextjs-icon.svg"
 // import { frame } from "framer-motion";
 
 const About = () => {
@@ -50,7 +51,7 @@ const About = () => {
       id: 4,
       img: reactLogo,
       name: "React",
-      classification: "User Experience / Interactivity",
+      classification: "JavaScript Library",
       description: "",
     },
     {
@@ -60,7 +61,15 @@ const About = () => {
       classification: "User Interface",
       description: "",
     },
+    {
+      id: 6,
+      img: nextjsLogo,
+      name: "NextJS",
+      classification: "React Framework",
+      description: "A react based framework that allows client side and server side to rendered on one code base"
+    }
   ];
+
 
   const otherTools = [
     {
