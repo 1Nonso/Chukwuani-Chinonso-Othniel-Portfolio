@@ -125,7 +125,7 @@ const About = () => {
           <div className="my-6">
             <p className="mb-5 font-[atma] text-center">
               I am proficient in the following technologies & tools: HTML, CSS,
-              JavaScript, the React library, and Tailwind library, Github, and
+              JavaScript, Tailwindcss Library, React library, NextJS framework, Github, and
               Vercel. With the help of these technologies, i am able to write
               high-quality, maintainable code, whiles always striving to improve
               my skills in areas such as performance optimization,
