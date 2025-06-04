@@ -108,7 +108,7 @@ const About = () => {
           </section>
         </motion.section>
         <section className="mt-4 px-1 w-full">
-          <p className="text-xl">Powered By</p>
+          <p className="text-xl mt-11">Powered By</p>
           <p className="text-center my-3 font-[atma]">
             Discover the powerful tools and technologies i use to create
             exceptional, high-performing websites & applications.
