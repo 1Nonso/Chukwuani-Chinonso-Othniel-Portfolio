@@ -1,26 +1,4 @@
-const PreviewPhoto = ({ url }) => {
-  console.log(url);
-
-  if (!url) {
-    return <div>Loading preview...</div>;
-  }
-
-  return (
-    <div className="projectPreview flex justify-center w-full">
-      <iframe
-        src={url}
-        className=" aspect-square w-[90%] md:w-[20rem] lg:w-[25rem] h-[10rem] rounded-3xl z-[-1] relative"
-        style={{
-          overflow: "hidden",
-          transform: "scale(1.0)",
-          transformOrigin: "0 0",
-        }}
-        title="Project Preview"
-        sandbox="allow-scripts allow-same-origin"
-      />
-    </div>
-  );
-};
+import pixelsmintsPreview from "./../assets/Images/pixelsmints-screenshot.png";
 
 const Work = () => {
   const projects = [
@@ -28,7 +6,7 @@ const Work = () => {
       id: 1,
       title: "PixelSmints | Remote",
       role: "Contract work for Protech",
-      screenshotImage: "/pixelsmints-screenshot.png",
+      screenshotImage: pixelsmintsPreview,
       stack: ["Next.js", "MongoDB", "Uploadthing"],
       highlights: [
         "A comprehensive NFT marketplace platform that enables users to mint, buy, sell, and trade digital assets.",
@@ -97,9 +75,6 @@ const Work = () => {
             );
           })}
         </section>
-        <button onClick={() => window.open("/Resume.pdf", "_blank")}>
-          📄 Download Resume
-        </button>
       </div>
     </>
   );
