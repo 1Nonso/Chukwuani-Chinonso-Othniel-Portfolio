@@ -24,7 +24,7 @@ const Work = () => {
     <>
       <div
         id="Work"
-        className="w-[90%] lg:w-[95%] text-[#474306]"
+        className="w-[90%] lg:w-[95%] mt-10 text-[#474306]"
         style={{ scrollMarginTop: "80px" }}
       >
         <h1 className="text-4xl mb-6">My Projects</h1>
@@ -65,7 +65,11 @@ const Work = () => {
                   </ul>
                   <div className="mt-3 flex gap-4">
                     {liveLink && (
-                      <a href={project.liveLink} target="_blank">
+                      <a
+                        href={project.liveLink}
+                        className="underline italic"
+                        target="_blank"
+                      >
                         Live Link
                       </a>
                     )}

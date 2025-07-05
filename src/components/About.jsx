@@ -106,7 +106,7 @@ const About = () => {
       <main
         id="About"
         style={{ scrollMarginTop: "80px" }}
-        className=" px-5 py-5 text-[#474306]"
+        className="w-[90%] lg:w-[95%] text-[#474306]"
       >
         <motion.section
           initial={{ opacity: 0 }}

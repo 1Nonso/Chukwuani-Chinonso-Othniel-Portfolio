@@ -7,7 +7,7 @@ const Home = () => {
       <main
         id="Home"
         style={{ scrollMarginTop: "80px" }}
-        className="flex flex-col justify-between items-center px-7 pt-3"
+        className="flex flex-col justify-between items-center w-[90%] lg:w-[95%] pt-3"
       >
         <p className="text-5xl md:text-6xl welcome w-20s">Welcome</p>
         <section className="flex flex-col-reverse justify-between items-center lg:flex-row px-7 pt-8 w-full">

@@ -1,14 +1,13 @@
 import call_me from "../assets/Images/call_me.svg";
 import email_me from "../assets/Images/email_me.svg";
 
-
 const Contact = () => {
   return (
     <>
       <main
         id="Contact"
         style={{ scrollMarginTop: "80px" }}
-        className="p-4 text-[#474306] font-[atma]"
+        className="w-[90%] py-2 lg:w-[95%] text-[#474306] font-[atma]"
       >
         <h1 className="text-3xl font-[poppinsMedium] mb-2">Let's Connect</h1>
         <div className="flex flex-col lg:flex-row items-center justify-between">
