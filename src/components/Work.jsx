@@ -5,7 +5,7 @@ const Work = () => {
     {
       id: 1,
       title: "PixelSmints | Remote",
-      role: "Contract work - Protech",
+      role: "Frontend Developer - Protech | Contract",
       screenshotImage: pixelsmintsPreview,
       stack: ["Next.js", "MongoDB", "Uploadthing"],
       highlights: [
