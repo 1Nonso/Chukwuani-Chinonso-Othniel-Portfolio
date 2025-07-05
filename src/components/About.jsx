@@ -5,16 +5,17 @@ import reactLogo from "./../assets/Images/react-svgrepo-com.svg";
 import tailwindLogo from "./../assets/Images/tailwind-logo.svg";
 import githubLogo from "./../assets/Images/github-logo.svg";
 import vercelLogo from "./../assets/Images/logo-vercel-svgrepo-com.svg";
+import mongoDBlogo from "./../assets/Images/mongoDB.png";
+import uploadthinglogo from "./../assets/Images/uploadthing.png";
 import { motion } from "framer-motion";
-import nextjsLogo from "./../assets/Images/nextjs-icon.svg"
-// import { frame } from "framer-motion";
+import nextjsLogo from "./../assets/Images/nextjs-icon.svg";
 
 const About = () => {
   const projectEperience = [
     {
       id: 1,
-      title: "+25",
-      description: "Project",
+      title: "Client-Focused",
+      description: "Developer",
     },
     {
       id: 2,
@@ -66,10 +67,18 @@ const About = () => {
       img: nextjsLogo,
       name: "NextJS",
       classification: "React Framework",
-      description: "A react based framework that allows client side and server side to rendered on one code base"
-    }
+      description:
+        "A react based framework that allows client side and server side to rendered on one code base",
+    },
+    {
+      id: 7,
+      img: mongoDBlogo,
+      name: "MongoDB",
+      classification: "Database",
+      description:
+        "A flexible NoSQL database that stores data in JSON-like documents, ideal for modern applications requiring scalability and speed.",
+    },
   ];
-
 
   const otherTools = [
     {
@@ -84,58 +93,63 @@ const About = () => {
       name: "Vercel",
       classification: "Hosting Platform",
     },
+    {
+      id: 3,
+      img: uploadthinglogo,
+      name: "UploadThing",
+      classification: "File Upload Tool",
+    },
   ];
 
   return (
     <>
-      <main id="About" style={{ scrollMarginTop: "80px" }} className=" px-5 py-5 text-[#474306]">
-        <motion.section initial={{ opacity: 0 }} transition={{ duration: 2 }} animate={{ x: [-500, 0] }} whileInView={{
-          opacity: 1
-        }} className="border-2 border-[#F5EE84] p-5 rounded-lg">
+      <main
+        id="About"
+        style={{ scrollMarginTop: "80px" }}
+        className=" px-5 py-5 text-[#474306]"
+      >
+        <motion.section
+          initial={{ opacity: 0 }}
+          transition={{ duration: 2 }}
+          animate={{ x: [-500, 0] }}
+          whileInView={{
+            opacity: 1,
+          }}
+          className="border-2 border-[#F5EE84] p-5 rounded-lg"
+        >
           <p className="mb-5 text-xl">
-            Welcome! I`m Chukwuani Chinonso Othniel, a Front-end Web Developer
-            who delves in transforming creative concepts into functional and
-            engaging web experiences. With a keen eye for detail and a focus on
-            quality, I specialize in building responsive websites and web
-            applications that not only meet client requirements but exceed their
-            expectations. My expertise in modern web technologies over the years
-            have allowed me to create seamless user experiences while
-            maintaining clean, efficient code. I`m always eager to collaborate
-            on innovative projects and contribute my skills to impactful web
-            development initiatives.
+            Hi, I'm Othniel - a Front-end Web Developer passionate about
+            transforming creative ideas into exceptional web experiences. I
+            build responsive websites and applications that exceed expectations.
+            Ready to collaborate on your next project.
           </p>
-          <section className="flex justify-between w-64">
-            {projectEperience.map((project) => {
-              const { id, title, description } = project;
-              return (
-                <div key={id} className="flex flex-col items-start">
-                  <p className="text-4xl">{title}</p>
-                  <p>{description}</p>
-                </div>
-              );
-            })}
-          </section>
+          <p>
+            Client-Focused Developer
+            <br />
+            Modern Web Solutions
+          </p>
         </motion.section>
         <section className="mt-4 px-1 w-full">
-          <p className="text-xl mt-11">Powered By</p>
-          <p className="text-center my-3 font-[atma]">
+          <p className="text-center text-xl my-3">
             Discover the powerful tools and technologies i use to create
             exceptional, high-performing websites & applications.
           </p>
           <div className="my-6">
             <p className="mb-5 font-[atma] text-center">
-              I am proficient in the following technologies & tools: HTML, CSS,
-              JavaScript, Tailwindcss Library, React library, NextJS framework, Github, and
-              Vercel. With the help of these technologies, i am able to write
-              high-quality, maintainable code, whiles always striving to improve
-              my skills in areas such as performance optimization,
-              accessibility, and cross-browser compatibility.
+              I'm proficient in modern web technologies including HTML, CSS,
+              JavaScript, React, Next.js, and more. I focus on writing clean,
+              maintainable code while continuously improving my skills in
+              performance optimization, accessibility, and cross-browser
+              compatibility.
             </p>
             <div className="techStack grid-cols-1 md:grid-cols-2 gap-8 grid-rows-2 w-full">
               {techStack.map((tech) => {
                 const { id, img, name, classification } = tech;
                 return (
-                  <div key={id} className="flex flex-row items-center w-[22rem]">
+                  <div
+                    key={id}
+                    className="flex flex-row items-center w-[22rem]"
+                  >
                     <img src={img} alt="" className="w-[10%] mr-5" />
                     <div className="w-[90%]">
                       <p>
@@ -156,7 +170,10 @@ const About = () => {
               {otherTools.map((tool) => {
                 const { id, img, name, classification } = tool;
                 return (
-                  <div key={id} className="flex flex-row items-center w-[22rem]">
+                  <div
+                    key={id}
+                    className="flex flex-row items-center w-[22rem]"
+                  >
                     <img src={img} alt="" className="w-[10%] mr-5" />
                     <div className="w-[90%]">
                       <p>
