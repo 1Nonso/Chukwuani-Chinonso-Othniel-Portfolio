@@ -11,7 +11,7 @@ function App() {
     <>
       <NavBar />
 
-      <section>
+      <section className="flex flex-col items-center justify-evenly w-dvw">
         <Home />
 
         <About />

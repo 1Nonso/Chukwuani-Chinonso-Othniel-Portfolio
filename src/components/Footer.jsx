@@ -6,8 +6,11 @@ import curlyFont from "./../assets/Fonts/DancingScript-VariableFont_wght.ttf";
 const Footer = () => {
   return (
     <>
-      <main className="w-full bg-[#fbf8cc] h-24 lg:h-12 flex flex-col lg:flex-row justify-between items-center footer px-4">
-        <p className="text-[#061280] text-2xl" style={{ fontFamily: curlyFont }}>
+      <footer className="w-full bg-[#fbf8cc] h-24 lg:h-12 flex flex-col lg:flex-row justify-between items-center footer px-4">
+        <p
+          className="text-[#061280] text-2xl"
+          style={{ fontFamily: curlyFont }}
+        >
           Web Experiences, Thoughtfully Coded
         </p>
         <section className="flex items-end">
@@ -29,7 +32,7 @@ const Footer = () => {
             </li>
           </ul>
         </section>
-      </main>
+      </footer>
     </>
   );
 };
