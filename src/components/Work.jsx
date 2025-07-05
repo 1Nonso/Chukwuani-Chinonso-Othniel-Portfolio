@@ -31,6 +31,7 @@ const Work = () => {
       screenshotImage: "/pixelsmints-screenshot.png",
       stack: ["Next.js", "MongoDB", "Uploadthing"],
       highlights: [
+        "A comprehensive NFT marketplace platform that enables users to mint, buy, sell, and trade digital assets.",
         "Developed responsive frontend architecture",
         "Implemented user dashboard and profile setup",
         "Enabled NFT creation and image uploads via Uploadthing",
@@ -96,6 +97,9 @@ const Work = () => {
             );
           })}
         </section>
+        <button onClick={() => window.open("/Resume.pdf", "_blank")}>
+          📄 Download Resume
+        </button>
       </div>
     </>
   );
