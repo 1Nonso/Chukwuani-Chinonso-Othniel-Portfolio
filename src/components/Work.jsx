@@ -5,7 +5,7 @@ const Work = () => {
     {
       id: 1,
       title: "PixelSmints | Remote",
-      role: "Contract work for Protech",
+      role: "Contract work - Protech",
       screenshotImage: pixelsmintsPreview,
       stack: ["Next.js", "MongoDB", "Uploadthing"],
       highlights: [
@@ -27,7 +27,7 @@ const Work = () => {
         className="w-[90%] lg:w-[95%] mt-10 text-[#474306]"
         style={{ scrollMarginTop: "80px" }}
       >
-        <h1 className="text-4xl mb-6">My Projects</h1>
+        <h1 className="text-4xl mb-6">Work Experience</h1>
         <p className="mb-5">
           Here are some projects showcasing my skills and experience in web
           development, They demonstrate my ability to solve complex problems,
